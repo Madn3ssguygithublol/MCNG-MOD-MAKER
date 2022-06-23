@@ -1,0 +1,19 @@
+When you first open the editor (aka ab2exe) you should see a big text box and it has automaticly written "@echo off"
+that is important keep it and dont remove
+now lets get to basic commands
+seperate every command with a new layer
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1- "echo" to use this command type in "echo" then the message after that it will say the message when saving the .bat or exporting to .exe but if it doesnt put a pause command
+2- "pause" does what is says pauses the prompt and after pressing any key it does the commands after it
+3- "title" changes the window title to whatever you want
+4- "wait" same as pause but you wait a specific time and dont have to press anything 1000 = 1 second 10000 = 10 seconds its based off milliseconds to set a time put the number type the time next to "Wait"
+5- "set /p (anyname)= (prompt message)" this command requires 1 other command after it replace (anyname) with any thing memorable you want and (prompt message) to what u want the program to prompt
+6- "if %(name from previous command)% == (what you will type) (commands to do after specific input)" does what u think it will
+7- ":(scene name)" if u have ever used other game engines scenes are basicly like levels in a game 
+8- "goto (scene name)" replace (scene name) with a scene name you typed to go to it
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+if you think this tutorial is incomplete id be happy to add more usefull commands
+
+also main game to edit will be named "game.bat"
